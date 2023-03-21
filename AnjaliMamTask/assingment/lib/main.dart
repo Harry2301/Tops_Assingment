@@ -5,6 +5,7 @@ import 'package:assingment/classwork/ListView3.dart';
 import 'package:assingment/classwork/ListView4.dart';
 import 'package:flutter/material.dart';
 import 'classwork/CheckBox.dart';
+import 'classwork/bottom_navigation.dart';
 import 'classwork/cardExample.dart';
 import 'classwork/girdExample.dart';
 import 'classwork/imgNet.dart';
@@ -25,5 +26,5 @@ import 'classwork/imgExample.dart';
 
 
 void main() {
-  runApp(MaterialApp(home: GridExample(),));
+  runApp(MaterialApp(home: bottomNavigation(),));
 }
