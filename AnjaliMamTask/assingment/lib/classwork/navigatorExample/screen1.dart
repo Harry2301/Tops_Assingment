@@ -12,11 +12,14 @@ class _screen1State extends State<screen1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Screen1"),),
+      appBar: AppBar(
+        title: Text("Screen1"),
+      ),
       body: Container(
         child: ElevatedButton(
-          onPressed: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context)=> screen2()));
+          onPressed: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => screen2()));
           },
           child: Text("Click Here"),
         ),

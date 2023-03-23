@@ -13,7 +13,7 @@ class _TabBarState extends State<TabBar> {
     return Scaffold(
       appBar: AppBar(
         title: Text("Tab Bar"),
-        
+
       ),
     );
   }

@@ -9,6 +9,7 @@ import 'classwork/bottom_navigation.dart';
 import 'classwork/cardExample.dart';
 import 'classwork/girdExample.dart';
 import 'classwork/imgNet.dart';
+import 'classwork/nav_pass_example/nav_screen1.dart';
 import 'screens/boxes.dart';
 import 'screens/boxes1.dart';
 import 'screens/boxes3.dart';
@@ -24,7 +25,8 @@ import 'classwork/navigatorExample/screen1.dart';
 import 'classwork/navigatorExample/screen2.dart';
 import 'classwork/imgExample.dart';
 
-
 void main() {
-  runApp(MaterialApp(home: bottomNavigation(),));
+  runApp(MaterialApp(
+    home: ValuePass(),
+  ));
 }
