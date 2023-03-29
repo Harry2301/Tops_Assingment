@@ -18,6 +18,7 @@ class _screen2State extends State<screen2> {
             onPressed: () {
               Navigator.push(
                   context, MaterialPageRoute(builder: (context) => screen1()));
+              //Navigator.pop(context);
             },
             child: Text("Click Here"),
           ),

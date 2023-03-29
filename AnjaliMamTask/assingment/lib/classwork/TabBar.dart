@@ -1,20 +1,33 @@
 import 'package:flutter/material.dart';
+import 'bottom_navbar.dart';
+import 'homescreen.dart';
 
-class TabBar extends StatefulWidget {
-  const TabBar({Key? key}) : super(key: key);
+class MyTabView extends StatefulWidget {
+  const MyTabView({super.key});
 
   @override
-  State<TabBar> createState() => _TabBarState();
+  State<MyTabView> createState() => _MyTabViewState();
 }
 
-class _TabBarState extends State<TabBar> {
+class _MyTabViewState extends State<MyTabView> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Tab Bar"),
-
-      ),
-    );
+    return DefaultTabController(length: 2, child: Scaffold(
+        appBar: AppBar(
+          title: Text("Flutter tab controller"),
+          backgroundColor: Colors.black,
+          bottom: TabBar(tabs:
+          [
+            Tab(
+              icon: Icon(Icons.contact_page),text: "contact",
+            ),
+            Tab(icon: Icon(Icons.camera),text: "Camera",)
+          ]),
+        ),
+        body: TabBarView(children: [
+          MyHomePage(),
+          MyNavHomescreen()
+        ],
+        )));
   }
 }

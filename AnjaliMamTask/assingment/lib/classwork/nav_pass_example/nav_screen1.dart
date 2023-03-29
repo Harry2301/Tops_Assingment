@@ -1,4 +1,3 @@
-import 'package:assingment/classwork/navigatorExample/screen2.dart';
 import 'package:flutter/material.dart';
 import 'nav_screen2.dart';
 
@@ -34,11 +33,11 @@ class _ValuePassState extends State<ValuePass> {
             ),
             ElevatedButton(
                 onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                          builder: (context) =>
-                              nav_screen2(message: message.text.toString())));
+                  Navigator.push(context, MaterialPageRoute(
+                    builder: (context) {
+                      return nav_screen2(message.text);
+                    },
+                  ));
                 },
                 child: Text("Save"))
           ],

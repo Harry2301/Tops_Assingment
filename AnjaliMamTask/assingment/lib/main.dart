@@ -1,3 +1,4 @@
+import 'package:assingment/classwork/TabBar.dart';
 import 'package:assingment/classwork/textFieldInput.dart';
 import 'package:assingment/classwork/ListView.dart';
 import 'package:assingment/classwork/ListView2.dart';
@@ -27,6 +28,6 @@ import 'classwork/imgExample.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: ValuePass(),
+    home: MyTabView(),
   ));
 }
