@@ -28,6 +28,6 @@ import 'classwork/imgExample.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: MyTabView(),
+    home: ValuePass(),
   ));
 }
