@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "294987178971",
+    "project_id": "harryfirebase",
+    "storage_bucket": "harryfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294987178971:android:869fdd77b342b74797fdfe",
+        "android_client_info": {
+          "package_name": "com.example.firebase_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294987178971-0ntmk892ms104o34e1vcnqtk83m99vfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTSzUfbcW17E7E0LLhZQTltDDTlZowEiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294987178971-0ntmk892ms104o34e1vcnqtk83m99vfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
