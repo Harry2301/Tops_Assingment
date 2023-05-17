@@ -10,6 +10,13 @@ class homePage extends StatefulWidget {
 class _homePageState extends State<homePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      backgroundColor: Colors.blueAccent,
+      body: Center(
+        child: Container(
+          child: Text("Harry"),
+        ),
+      ),
+    );
   }
 }

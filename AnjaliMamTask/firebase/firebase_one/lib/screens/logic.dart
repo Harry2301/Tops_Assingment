@@ -1,7 +1,7 @@
 
 import "package:firebase_auth/firebase_auth.dart";
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_one/screens/screens/loginpage%20(1).dart';
+import 'package:firebase_one/screens/screens/loginpage.dart';
 import 'package:flutter/material.dart';
 
 

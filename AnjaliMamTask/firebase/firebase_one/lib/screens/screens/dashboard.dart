@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_one/screens/logic.dart';
 import 'package:firebase_one/screens/screens/detailed_homescreen.dart';
@@ -98,7 +97,7 @@ class _dashboardScreenState extends State<dashboardScreen> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => detailed_homescreen(
+                                builder: (context) => MyDetailsScreen(
                                   chatID: chatID,
                                   userMap: userMap,
                                 ),
