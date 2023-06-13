@@ -1,6 +1,7 @@
 import 'package:firebase_one/getX_Example/GetX_BottomSheet.dart';
 import 'package:firebase_one/getX_Example/GetX_Dialog.dart';
 import 'package:firebase_one/getX_Example/GetX_SnackBar.dart';
+import 'package:firebase_one/getX_Example/GetX_StateManagement.dart';
 import 'package:firebase_one/getX_Example/second_screen_GetX.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -43,6 +44,11 @@ class _MyScreenGetXState extends State<MyScreenGetX> {
                   Get.to(MyBottomSheet());
                 },
                 child: Text("MyBottomSheet")),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(StateManagement());
+                },
+                child: Text("Statemanagement")),
           ],
         ),
       ),
